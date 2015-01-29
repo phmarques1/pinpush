@@ -116,6 +116,7 @@ STEP ONE
 .step-one {
   height: 558px;
   background: #fff;
+  overflow: hidden;
 }
 
 .step-one-wrap {
@@ -144,6 +145,10 @@ STEP ONE
 }
 
 
+
+
+
+
 /****************************************************************
 
 STEP TWO
@@ -153,10 +158,11 @@ STEP TWO
 .step-two {
   height: 558px;
   background: #ff4f48;
+  overflow: hidden;
 }
 
 .step-two-wrap {
-  max-width: 910px;
+  width: 910px;
   margin: 0 auto;
 
 }
@@ -167,7 +173,7 @@ STEP TWO
 }
 
 .p-two-wrap {
-  max-width: 470px;
+  max-width: 480px;
   margin-top: 190px;
   text-align: center;
   color: #fff;
