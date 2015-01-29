@@ -78,7 +78,7 @@ BG AREA
 }
 
 h2 {
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto 10px;
   text-align: center;
   color: #fff;
@@ -129,7 +129,7 @@ STEP ONE
 }
 
 .p-one-wrap {
-  width: 480px;
+  max-width: 480px;
   margin-top: 205px;
   text-align: center;
   color: #4a4a4a;
@@ -167,7 +167,7 @@ STEP TWO
 }
 
 .p-two-wrap {
-  width: 470px;
+  max-width: 470px;
   margin-top: 190px;
   text-align: center;
   color: #fff;
@@ -203,7 +203,7 @@ STEP THREE
 }
 
 .p-three-wrap {
-  width: 600px;
+  max-width: 600px;
   margin-top: 160px;
   text-align: center;
   color: #4a4a4a;
@@ -310,7 +310,104 @@ MEDIA QUERIES
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
 
+/****************************************************************
 
+BG AREA
+
+****************************************************************/
+
+.bg-wrapper {
+  padding-top: 15.5%;
+}
+
+h2 {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 2em;
+  line-height: 55px;
+}
+
+h3 {
+  max-width: 400px;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+STEP ONE
+
+****************************************************************/
+
+.step-one {
+  height: 700px;
+  overflow: hidden;
+}
+
+.phone-one-wrap {
+  padding-top: 70px;
+  padding-left: 31%;
+  float: none;
+}
+
+.p-one-wrap {
+  width: 450px;
+  margin: 10% auto -10px;
+  float: none;
+}
+
+
+/****************************************************************
+
+STEP TWO
+
+****************************************************************/
+
+.step-two {
+  height: 750px;
+  overflow: hidden;
+}
+
+.phone-two-wrap {
+  padding-top: 64px;
+  padding-left: 31%;
+  float: none;
+}
+
+.p-two-wrap {
+  width: 470px;
+  text-align: center;
+  margin: 0 auto 0;
+  padding-top: 50px;
+  float: none;
+}
+
+/****************************************************************
+
+STEP THREE
+
+****************************************************************/
+
+.step-three {
+  height: 850px;
+  overflow: hidden;
+}
+
+.phone-three-wrap {
+  padding-top: 64px;
+  padding-left: 31%;
+  float: none;
+}
+
+.p-three-wrap {
+  width: 470px;
+  text-align: center;
+  margin: 0 auto 0;
+  padding-top: 50px;
+  float: none;
+}
 
 
 }
@@ -326,7 +423,120 @@ FIM
 
 @media screen and (max-width: 480px) and (min-width: 321px) {
 
+/****************************************************************
 
+BG AREA
+
+****************************************************************/
+
+.top-bg {
+  height: 620px;
+}
+
+.bg-wrapper {
+  padding-top: 22%;
+  max-width: 480px
+}
+
+h2 {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.5em;
+  line-height: 40px;
+}
+
+h3 {
+  max-width: 400px;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  line-height: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/****************************************************************
+
+STEP ONE
+
+****************************************************************/
+
+.step-one {
+  height: 700px;
+  overflow: hidden;
+}
+
+.phone-one-wrap {
+  padding-top: 70px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-one-wrap {
+  margin: 17% auto -30px;
+  text-align: center;
+  float: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+
+
+/****************************************************************
+
+STEP TWO
+
+****************************************************************/
+
+.step-two {
+  height: 720px;
+  overflow: hidden;
+}
+
+.phone-two-wrap {
+  padding-top: 64px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-two-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+STEP THREE
+
+****************************************************************/
+
+.step-three {
+  height: 710px;
+  overflow: hidden;
+}
+
+.phone-three-wrap {
+  padding-top: 64px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-three-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
 
 }
 
@@ -348,7 +558,120 @@ FIM
 
         ************************************/
 
+/****************************************************************
 
+BG AREA
+
+****************************************************************/
+
+.top-bg {
+  height: 610px;
+}
+
+.bg-wrapper {
+  padding-top: 22%;
+  max-width: 480px
+}
+
+h2 {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.5em;
+  line-height: 40px;
+}
+
+h3 {
+  max-width: 400px;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  line-height: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/****************************************************************
+
+STEP ONE
+
+****************************************************************/
+
+.step-one {
+  height: 700px;
+  overflow: hidden;
+}
+
+.phone-one-wrap {
+  padding-top: 70px;
+  padding-left: 15%;
+  float: none;
+}
+
+.p-one-wrap {
+  margin: 17% auto -30px;
+  text-align: center;
+  float: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+
+
+/****************************************************************
+
+STEP TWO
+
+****************************************************************/
+
+.step-two {
+  height: 720px;
+  overflow: hidden;
+}
+
+.phone-two-wrap {
+  padding-top: 64px;
+  padding-left: 15%;
+  float: none;
+}
+
+.p-two-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+STEP THREE
+
+****************************************************************/
+
+.step-three {
+  height: 710px;
+  overflow: hidden;
+}
+
+.phone-three-wrap {
+  padding-top: 64px;
+  padding-left: 15%;
+  float: none;
+}
+
+.p-three-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
 
 
 }
@@ -371,6 +694,120 @@ FIM
 
         ************************************/
 
+/****************************************************************
+
+BG AREA
+
+****************************************************************/
+
+.top-bg {
+  height: 620px;
+}
+
+.bg-wrapper {
+  padding-top: 20%;
+  max-width: 480px
+}
+
+h2 {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.5em;
+  line-height: 40px;
+}
+
+h3 {
+  max-width: 400px;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  line-height: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/****************************************************************
+
+STEP ONE
+
+****************************************************************/
+
+.step-one {
+  height: 700px;
+  overflow: hidden;
+}
+
+.phone-one-wrap {
+  padding-top: 70px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-one-wrap {
+  margin: 17% auto -30px;
+  text-align: center;
+  float: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+
+
+/****************************************************************
+
+STEP TWO
+
+****************************************************************/
+
+.step-two {
+  height: 720px;
+  overflow: hidden;
+}
+
+.phone-two-wrap {
+  padding-top: 64px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-two-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+STEP THREE
+
+****************************************************************/
+
+.step-three {
+  height: 710px;
+  overflow: hidden;
+}
+
+.phone-three-wrap {
+  padding-top: 64px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-three-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
 
 
 }
@@ -393,7 +830,120 @@ FIM
         ************************************/
 
 
+/****************************************************************
 
+BG AREA
+
+****************************************************************/
+
+.top-bg {
+  height: 570px;
+}
+
+.bg-wrapper {
+  padding-top: 21%;
+  max-width: 480px
+}
+
+h2 {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.5em;
+  line-height: 40px;
+}
+
+h3 {
+  max-width: 400px;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  line-height: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/****************************************************************
+
+STEP ONE
+
+****************************************************************/
+
+.step-one {
+  height: 700px;
+  overflow: hidden;
+}
+
+.phone-one-wrap {
+  padding-top: 70px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-one-wrap {
+  margin: 17% auto -30px;
+  text-align: center;
+  float: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+
+
+/****************************************************************
+
+STEP TWO
+
+****************************************************************/
+
+.step-two {
+  height: 720px;
+  overflow: hidden;
+}
+
+.phone-two-wrap {
+  padding-top: 64px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-two-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+STEP THREE
+
+****************************************************************/
+
+.step-three {
+  height: 710px;
+  overflow: hidden;
+}
+
+.phone-three-wrap {
+  padding-top: 64px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-three-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
 
 }
 
