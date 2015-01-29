@@ -1,0 +1,429 @@
+body {
+  margin: 0;  
+}
+
+/****************************************************************
+
+HEADER
+
+****************************************************************/
+
+header {
+  width: 100%;
+  border-bottom: 1px solid rgb(220,220,220);
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  background: #fff;
+}
+
+.header-wrapper {
+  max-width: 1140px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+header img {
+  margin-top: 9px;
+  margin-left: 10px;
+  float: left;
+}
+
+.pure-button-one {
+  margin-top: 8px;
+  margin-right: 10px;
+  float: right;
+  padding: 0.8em 1.2em;
+  margin-right: 15px;
+  background-color: #fafafa;
+  border-color: #dcdcdc;
+  text-shadow: none;
+  color: #ff4f48;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 0.8em;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+
+}
+
+.pure-button-one:hover {
+  background-color: #fff; 
+}
+
+
+
+/****************************************************************
+
+BG AREA
+
+****************************************************************/
+
+
+.top-bg {
+  width: 100%;
+  background-image: url('../img/bg-cover.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  margin-top: 50px;
+  z-index: 0;
+}
+
+.bg-wrapper {
+  text-align: center;
+  padding-top: 165px;
+}
+
+h2 {
+  width: 1100px;
+  margin: 0 auto 10px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.4em;
+  font-weight: 800;
+  letter-spacing: 5px;
+  line-height: 60px;
+}
+
+h3 {
+  margin: 15px auto 60px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+
+
+
+
+
+/****************************************************************
+
+STEP ONE
+
+****************************************************************/
+
+.step-one {
+  height: 558px;
+  background: #fff;
+}
+
+.step-one-wrap {
+  max-width: 910px;
+  margin: 0 auto;
+}
+
+.phone-one-wrap {
+  padding-top: 60px;
+  float: left;
+}
+
+.p-one-wrap {
+  width: 480px;
+  margin-top: 205px;
+  text-align: center;
+  color: #4a4a4a;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7em;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 45px;
+  float: right;
+}
+
+
+/****************************************************************
+
+STEP TWO
+
+****************************************************************/
+
+.step-two {
+  height: 558px;
+  background: #ff4f48;
+}
+
+.step-two-wrap {
+  max-width: 910px;
+  margin: 0 auto;
+
+}
+
+.phone-two-wrap {
+  padding-top: 74px;
+  float: right;
+}
+
+.p-two-wrap {
+  width: 470px;
+  margin-top: 190px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7em;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 45px;
+  float: left;
+}
+
+/****************************************************************
+
+STEP THREE
+
+****************************************************************/
+
+.step-three {
+  height: 558px;
+  background: #fff;
+}
+
+.step-three-wrap {
+  max-width: 910px;
+  margin: 0 auto;
+}
+
+.phone-three-wrap {
+  padding-top: 70px;
+  float: left;
+}
+
+.p-three-wrap {
+  width: 600px;
+  margin-top: 160px;
+  text-align: center;
+  color: #4a4a4a;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7em;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 45px;
+  float: right;
+}
+
+/****************************************************************
+
+SAFE & AUTOMATIC
+
+****************************************************************/
+
+.safe {
+  height: 600px;
+  background: #ff4f48;
+}
+
+.safe-wrap {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 106px;
+}
+
+.safe h3 {
+  margin: 30px auto 0;
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8em;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.safe p {
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  font-weight: 300;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+}
+
+.appstoreblack {
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+/****************************************************************
+
+FOOTER
+
+****************************************************************/
+
+footer {
+  height: 35px;
+  text-align: center;
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+footer a {
+  text-decoration: none;
+  color: #a6a6a6;
+}
+
+footer p:hover {
+  color: #ff4f48;
+  text-decoration: none;
+}
+
+
+
+
+/**************************************************************** 
+*****************************************************************
+*****************************************************************
+
+MEDIA QUERIES
+
+*****************************************************************
+*****************************************************************
+****************************************************************/
+
+
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+
+
+
+
+}
+
+/***************** 
+
+FIM 
+
+*****************/
+
+
+
+
+@media screen and (max-width: 480px) and (min-width: 321px) {
+
+
+
+}
+
+/***************** 
+
+FIM 
+
+*****************/
+
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 568px) {
+
+
+        /***********************************
+
+        iPhone 5
+
+        ************************************/
+
+
+
+
+}
+
+/***************** 
+
+FIM 
+
+*****************/
+
+
+
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+  
+
+        /***********************************
+
+        iPhone 6
+
+        ************************************/
+
+
+
+}
+
+/***************** 
+
+FIM 
+
+*****************/
+
+
+
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 3) {
+ 
+        /***********************************
+
+        iPhone 6 Plus Portrait
+
+        ************************************/
+
+
+
+
+}
+
+/***************** 
+
+FIM 
+
+*****************/
+
+
+
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 3) {
+
+        /***********************************
+
+        iPhone 6 Plus Landscape
+
+        ************************************/
+
+
+
+
+}
+
+/***************** 
+
+FIM 
+
+*****************/
+
+
+
