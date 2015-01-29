@@ -162,7 +162,7 @@ STEP TWO
 }
 
 .step-two-wrap {
-  width: 910px;
+  max-width: 910px;
   margin: 0 auto;
 
 }
@@ -579,6 +579,10 @@ BG AREA
   max-width: 480px
 }
 
+.pure-button-one {
+  margin-right: 5px;
+}
+
 h2 {
   text-align: center;
   padding-left: 5%;
@@ -715,6 +719,10 @@ BG AREA
   max-width: 480px
 }
 
+.pure-button-one {
+  margin-right: 5px;
+}
+
 h2 {
   text-align: center;
   padding-left: 5%;
@@ -849,6 +857,10 @@ BG AREA
 .bg-wrapper {
   padding-top: 21%;
   max-width: 480px
+}
+
+.pure-button-one {
+  margin-right: 5px;
 }
 
 h2 {
